@@ -10,10 +10,6 @@ public class Insercao {
         System.out.println("Digite valores inteiros para preencher o vetor. Digite 0 para parar e exibir os valores.");
 
         while (true) {
-            if (count >= numeros.length) {
-                System.out.println("Limite do vetor alcançado. Não é possível inserir mais valores.");
-                break;
-            }
             try {
                 System.out.print("Digite um número (0 para parar): ");
                 int num = scanner.nextInt();
